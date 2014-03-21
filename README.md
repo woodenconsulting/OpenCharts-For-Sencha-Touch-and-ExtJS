@@ -78,3 +78,21 @@ requires: [
 - OpenCharts.charts.LineWithFocusChart (xtype: **oc-linewithfocuschart**)
 - OpenCharts.charts.PieChart (xtype: **oc-piechart**)
 - OpenCharts.charts.BulletChart (xtype: **oc-bulletchart**)
+
+#### Properties
+
+**chartData**
+An array of data for the chart (refer to the example applications or NVD3 documentation on how to handle data)
+
+**chartOptions**
+The chart options / properties to apply to the chart
+Refer to the NVD3 documentation for specific chart options
+
+**Example**
+chartOptions = {
+     x: (function(d) { return d.label; }),
+     y: (function(d) { return d.value; }),
+     staggerLabels: true,
+     tooltips: false,
+     showValues: true
+ }

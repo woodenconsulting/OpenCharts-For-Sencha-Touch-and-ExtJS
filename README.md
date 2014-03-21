@@ -124,8 +124,21 @@ A function that can be configured to call additional methods on the chart when i
 #### Methods
 
 **renderChartData**
+
 Updates the chartData and refreshes the chart. Usually called after new chart data is grabbed via xhr.
 
 Properties
 - data {array}
 The array of data to update the chart with
+
+#### Events
+
+- elementMouseover
+- elementMouseout
+- tooltipShow
+- tooltipHide
+- elementClick
+- legendMouseover
+- stateChange
+
+Each event is an NVD3 event that has been bound to the ExtJS / Sencha Touch events system. Refer to the NVD3 event documentation here: https://github.com/novus/nvd3/wiki/API-Documentation#events

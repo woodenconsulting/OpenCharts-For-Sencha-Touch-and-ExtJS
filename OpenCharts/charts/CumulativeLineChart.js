@@ -1,6 +1,6 @@
 /*!
  *
- * OpenCharts for Sencha Touch
+ * OpenCharts for Sencha Touch and ExtJS
  * Uses D3.js (d3js.org) and NVD3 (nvd3.org)
  * 
  * MIT License

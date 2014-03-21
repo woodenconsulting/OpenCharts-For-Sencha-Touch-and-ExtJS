@@ -122,3 +122,10 @@ A function that can be configured to call additional methods on the chart when i
     }
     
 #### Methods
+
+**renderChartData**
+Updates the chartData and refreshes the chart. Usually called after new chart data is grabbed via xhr.
+
+Properties
+- data {array}
+The array of data to update the chart with

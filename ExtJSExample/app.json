@@ -1,0 +1,24 @@
+{
+    "name": "NVD3Charts",
+
+    "requires": [
+    ],
+
+    "id": "9760645c-5482-48d0-bddd-414657ace490",
+    
+    "js": [
+        {
+            "path": "OpenCharts/lib/d3.min.js"
+        },
+        {
+            "path": "OpenCharts/lib/nv.d3.min.js"
+        }
+    ],
+    
+    "css": [
+        {
+            "path": "resources/css/nv.d3.min.css",
+            "update": "delta"
+        }
+    ]
+}

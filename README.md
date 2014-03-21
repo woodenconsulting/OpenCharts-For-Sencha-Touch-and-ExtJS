@@ -93,16 +93,10 @@ Refer to the NVD3 documentation for specific chart options
 
 **Example**
 
-chartOptions = {
-
-     x: (function(d) { return d.label; }),
-     
-     y: (function(d) { return d.value; }),
-     
-     staggerLabels: true,
-     
-     tooltips: false,
-     
-     showValues: true
-     
- }
+     chartOptions = {
+          x: (function(d) { return d.label; }),
+          y: (function(d) { return d.value; }),
+          staggerLabels: true,
+          tooltips: false,
+          showValues: true
+     }

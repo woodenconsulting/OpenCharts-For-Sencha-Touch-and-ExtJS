@@ -1,11 +1,11 @@
 OpenCharts-For-Sencha-Touch-and-ExtJS
 =====================================
 
-## OpenCharts for Sencha Touch 2.x and ExtJS 4.x
+### OpenCharts Description
 
 OpenCharts brings over 10 NVD3 charts to the Sencha Touch and ExtJS frameworks and is backwards compatible with both. NVD3 is a charting library that utilizes D3.js. Note that OpenCharts contains the minified version of D3 and NVD3, however, the source for those files should be updated independantly of this repository.
 
-#### Using The Example Applications
+### Using The Example Applications
 
 I did not include the Sencha Touch or ExtJS source files in the example applications folders. To use the example applications, first copy the OpenCharts source to the example's root directory.
 
@@ -13,7 +13,7 @@ For ExtJS, copy the **ext** folder to the root of the ExtJSExample application.
 
 For Sencha Touch, copy the **touch** folder to the root of the SenchaTouchExample application.
 
-You can easily get a copy of these folders via CLI by creating a sample application with the respective framework. Make sure you are in either the ExtJS or Sencha Touch framework folder and run the following command via Sencha Command:
+You can easily get a copy of these folders via command line by creating a sample application with the respective framework. Make sure you are in either the ExtJS or Sencha Touch framework folder and run the following command via Sencha Command:
 
 **sencha generate app TestApp \path\to\generate\app**
 

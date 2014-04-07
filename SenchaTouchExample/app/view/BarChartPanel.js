@@ -4,7 +4,6 @@ Ext.define('NVD3Charts.view.BarChartPanel', {
     
     config: {
         layout: 'fit',
-        html:'test',
         items: [{
             xtype: 'oc-barchart',
             chartOptions: {

@@ -109,7 +109,7 @@ Ext.define('OpenCharts.charts.Chart',{
         
             //apply additional properties specific to each chartType
             //the various chart classes will override this method
-            this.applyChartProperties(chart, options);
+            this.applyChartProperties(chart, options, this.getChartFn());
             
             //now we need to bind the various chart events so we can fire these
             //events for Sencha Touch
